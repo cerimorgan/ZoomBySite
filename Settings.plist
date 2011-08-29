@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<real>10</real>
+		<key>Key</key>
+		<string>zoomStep</string>
+		<key>Title</key>
+		<string>Zoom Amount</string>
+		<key>Titles</key>
+		<array>
+			<string>Tiny (5%)</string>
+			<string>Small (10%)</string>
+			<string>Medium (15%)</string>
+			<string>Large (20%)</string>
+		</array>
+		<key>Type</key>
+		<string>ListBox</string>
+		<key>Values</key>
+		<array>
+			<real>5</real>
+			<real>10</real>
+			<real>15</real>
+			<real>20</real>
+		</array>
+	</dict>
+</array>
+</plist>

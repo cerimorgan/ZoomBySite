@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Ceri Morgan</string>
+	<key>Builder Version</key>
+	<string>7534.48.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>ZoomBySite</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cerimorgan.zoombysite</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleVersion</key>
+	<string>1.2</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>10485760</real>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>zoomDebugMenu</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Identifier</key>
+						<string>zoomDebug</string>
+						<key>Title</key>
+						<string>Debug</string>
+					</dict>
+					<dict>
+						<key>Identifier</key>
+						<string>zoomClearDatabase</string>
+						<key>Title</key>
+						<string>Clear Database</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>zoomIn</string>
+				<key>Image</key>
+				<string>images/ZoomIn.png</string>
+				<key>Include By Default</key>
+				<false/>
+				<key>Label</key>
+				<string>Zoom In</string>
+				<key>Palette Label</key>
+				<string></string>
+				<key>Tool Tip</key>
+				<string>Zoom In</string>
+			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>zoomOut</string>
+				<key>Image</key>
+				<string>images/ZoomOut.png</string>
+				<key>Include By Default</key>
+				<false/>
+				<key>Label</key>
+				<string>Zoom Out</string>
+				<key>Tool Tip</key>
+				<string>Zoom Out</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>injected-start.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>An extension that saves zoom preferences for each site</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.cerimorgan.com/downloads/ZoomBySite.plist</string>
+	<key>Website</key>
+	<string>http://www.cerimorgan.com/products/zoombysite/</string>
+</dict>
+</plist>
