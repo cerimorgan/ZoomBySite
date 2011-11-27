@@ -6,6 +6,7 @@
 // http://buildingonmud.blogspot.com/2009/06/convert-string-to-unicode-in-javascript.html
 
 var currentZoom = 100;
+
 var domain = self.location.hostname;
 var intervalId;
 
@@ -80,7 +81,7 @@ function initZoomExtension() {
 }
 
 function shouldZoom() {
-    if (self.location === top.location) {
+    if (window.top === window || domain === "mail.google.com") {
         return true;
     } else {
         return false;
@@ -96,6 +97,8 @@ function setZoomOnBodyInInterval() {
 }
 
 function handleMessage(msgEvent) {
+    console.log("handleMessage, name = " + msgEvent.name + ", message = " + msgEvent.message);
+
     var messageName = msgEvent.name;
     var messageData = msgEvent.message;
     var saveZoom = true;
@@ -138,6 +141,5 @@ function getZoomModifier() {
         return CMD;
     }
 }
-
 
 initZoomExtension();

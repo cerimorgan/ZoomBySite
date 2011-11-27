@@ -26,5 +26,35 @@
 			<real>20</real>
 		</array>
 	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>100</real>
+		<key>Key</key>
+		<string>defaultZoom</string>
+		<key>MaximumValue</key>
+		<real>125</real>
+		<key>MinimumValue</key>
+		<real>75</real>
+		<key>Title</key>
+		<string>Default Zoom</string>
+		<key>Titles</key>
+		<array>
+			<string>80%</string>
+			<string>90%</string>
+			<string>100%</string>
+			<string>110%</string>
+			<string>120%</string>
+		</array>
+		<key>Type</key>
+		<string>ListBox</string>
+		<key>Values</key>
+		<array>
+			<real>80</real>
+			<real>90</real>
+			<real>100</real>
+			<real>110</real>
+			<real>120</real>
+		</array>
+	</dict>
 </array>
 </plist>
