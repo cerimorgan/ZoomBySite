@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Ceri Morgan</string>
 	<key>Builder Version</key>
-	<string>7534.51.22</string>
+	<string>10600.1.25</string>
 	<key>CFBundleDisplayName</key>
 	<string>ZoomBySite</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4</string>
+	<string>1.6</string>
 	<key>CFBundleVersion</key>
-	<string>1.4</string>
+	<string>1.6</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Database Quota</key>
@@ -74,6 +74,20 @@
 				<key>Tool Tip</key>
 				<string>Zoom Out</string>
 			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>zoomDebugItem</string>
+				<key>Image</key>
+				<string>images/Debug.png</string>
+				<key>Include By Default</key>
+				<false/>
+				<key>Label</key>
+				<string>Zoom Debug</string>
+				<key>Menu</key>
+				<string>zoomDebugMenu</string>
+				<key>Tool Tip</key>
+				<string>Zoom Debug</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Content</key>
@@ -91,7 +105,9 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>An extension that saves zoom preferences for each site</string>
+	<string>An extension that saves zoom preferences for each site.</string>
+	<key>DeveloperIdentifier</key>
+	<string>FALSCNZCPM</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
